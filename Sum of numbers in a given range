@@ -1,0 +1,8 @@
+num1=int(input())
+num2=int(input())
+i=0
+sum=0
+for i in range(num1,num2+1):
+    sum+=i
+    i+=1
+print(sum)
